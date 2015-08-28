@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DiscController : MonoBehaviour {
+public class DiscManager : SingletonMono<DiscManager> {
 
 	// Use this for initialization
 	void Start () {
